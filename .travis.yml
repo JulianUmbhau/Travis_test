@@ -4,9 +4,9 @@ python:
 script:
   - pytest
 
-  notifications:
-    email:
-      recipients:
-        - jensen_303@hotmail.com
-      on_success: never
-      on_failure: always
+notifications:
+  email:
+    recipients:
+      - jensen_303@hotmail.com
+    on_success: never
+    on_failure: always
